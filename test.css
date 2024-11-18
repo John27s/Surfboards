@@ -21,7 +21,9 @@ body{
     text-align: center;
     text-decoration: none;
     font-size: 24px;
-    padding: 16px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
 }
 #container{
     display: flex;
@@ -31,6 +33,7 @@ body{
     text-align: center;
     text-decoration: none;
     list-style: none;
+    
 }
 #container li {
     float: right;
@@ -83,19 +86,20 @@ body{
 #maindiv{
     display: flex;
     flex-wrap: wrap;
-    height: max-content;
     align-items: center;
     display: flex;
     flex-wrap: wrap;
+
 }
 #product{
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 6px;
-    margin: 4%;
+    margin: 2%;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 20px;
     color: rgb(120, 113, 113);
-    width: 250px;
+    width: 200px;
+    align-items: center;
 }
 #img{
     max-width:70%;
@@ -126,37 +130,32 @@ body{
 }
 .maindiv1{
     justify-content: center;
-    height: max-content;
     align-items: center;
     display: flex;
     flex-wrap: wrap;
 }
-#product1{
-    padding: 6px;
-    width: 50%;
-    font-family: Arial, Helvetica, sans-serif;
+#img1{
+    height: 100%;
+    max-width: 40vw;
+    justify-content: right;
     margin-left: 20px;
     margin-right: 20px;
+}
+#product1{
+    border-radius: 20px;
+    padding: 6px;
+    width: 500px;
+    margin: 4%;
+    margin-left: 20px;
+    text-align: center;
     color: rgb(120, 113, 113);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
-#titile1{
-    font-size: 25px;
-}
 #text1{
     text-align: center;
-}
-#img1{
-    height: auto;
-    max-width: 40%;
-    display: block;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: right;
-
 }
 .maindiv2{
     justify-content: center;
@@ -166,7 +165,12 @@ body{
     flex-wrap: wrap;
 }
 #product2{
-    width: 60%;
+    border-radius: 20px;
+    padding: 6px;
+    width: 500px;
+    margin: 4%;
+    margin-left: 20px;
+    text-align: center;
     color: rgb(120, 113, 113);
     display: flex;
     flex-wrap: wrap;
@@ -176,15 +180,17 @@ body{
 #titile1{
     font-size: 25px;
     justify-content: center;
- 
+    text-align: center;
 }
 #img2{
     height: auto;
-    max-width: 40%;
+    max-width: 60%;
     display: block;
     display: flex;
     flex-wrap: wrap;
     justify-content: right;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 #Read{
     cursor: pointer;
